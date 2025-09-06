@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Architect AI Prompt Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* For Image Comparison Slider */
+      .slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 40px;
+        height: 40px;
+        background: white;
+        border: 3px solid #0ea5e9; /* sky-500 */
+        border-radius: 50%;
+        cursor: ew-resize;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        transition: background-color 0.2s;
+      }
+      .slider-thumb:hover {
+        background-color: #f0f9ff; /* sky-50 */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-900 text-gray-100">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

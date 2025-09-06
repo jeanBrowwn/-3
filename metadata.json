@@ -1,0 +1,5 @@
+{
+  "name": "Architectural Image Synthesis Prompt Generator",
+  "description": "An interactive AI agent that helps architects visualize their concepts by generating high-quality image synthesis prompts through a guided 7-step conversational process.",
+  "requestFramePermissions": []
+}
